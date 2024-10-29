@@ -22,7 +22,7 @@ stage('Build-and-Tag')
 {
     /* This builds the actual image;
         * This is synonomous to docker build on the command line */
-    app = docker.build('loadinq/chat')    
+    app = docker.build('loadinq/chat2')    
 }
 
 stage('Push-to-Dockerhub')
